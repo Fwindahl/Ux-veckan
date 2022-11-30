@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+.section1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section1 h1 {
+  margin: 30px;
+  font-size: 44px;
+  color: hsl(210, 10%, 33%);
+}
+.section1 p {
+  max-width: 650px;
+  color: hsl(201, 11%, 66%);
+}
+#ios {
+  margin-right: 10px;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  width: 230px;
+  box-shadow: 1px 2px 2px 1px #888888;
+  font-weight: 600;
+  font-family: "Bai jamjuree";
+  cursor: pointer;
+}
+#ios:hover {
+  filter: drop-shadow(0 0 15px hsl(171, 66%, 44%));
+  transition: 0.2s ease-out;
+}
+#mac {
+  margin-left: 10px;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  width: 230px;
+  box-shadow: 1px 2px 2px 1px #888888;
+  font-weight: 600;
+  font-family: "Bai jamjuree";
+  cursor: pointer;
+}
+#mac:hover {
+  filter: drop-shadow(0 0 15px hsl(233, 100%, 69%));
+  transition: 0.2s ease-out;
+}
+.btn-container {
+  margin: 50px;
+}
+@media screen and (max-width: 430px) {
+  #ios {
+    width: 90%;
+    margin: 0px 0px 15px 0px;
+  }
+  #mac {
+    width: 90%;
+    margin: 0px;
+  }
+  .section1 h1 {
+    font-size: 35px;
+  }
+  .section1 p {
+    font-size: 18px;
+  }
+  body {
+    padding: 10px;
+  }
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.section2 h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 36px;
+}
+.section2 p {
+  color: hsl(201, 11%, 66%);
+  max-width: 600px;
+  margin: 20px 0px 60px 0px;
+  text-align: center;
+}
+.keep-track-container {
+  display: flex;
+  gap: 100px;
+}
+.keep-track-container img {
+  width: 1000px;
+  transform: translateX(-60px);
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 250px;
+  max-width: 350px;
+}
+.features h1 {
+  font-size: 24px;
+}
+.features p {
+  font-size: 15px;
+  text-align: start;
+}
+@media screen and (max-width: 430px) {
+  .keep-track-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    margin-right: 0px;
+  }
+  .keep-track-container img {
+    width: 300px;
+    transform: translateX(0);
+  }
+  .section2 {
+    text-align: center;
+  }
+  .features p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .keep-track-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    margin-right: 0px;
+  }
+  .keep-track-container img {
+    width: 300px;
+    transform: translateX(0);
+  }
+  .section2 {
+    text-align: center;
+  }
+  .features p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .keep-track-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    margin-right: 0px;
+  }
+  .keep-track-container img {
+    width: 300px;
+    transform: translateX(0);
+  }
+  .section2 {
+    text-align: center;
+  }
+  .features p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .keep-track-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    margin-right: 0px;
+  }
+  .keep-track-container img {
+    width: 300px;
+    transform: translateX(0);
+  }
+  .section2 {
+    text-align: center;
+  }
+  .features p {
+    text-align: center;
+  }
+}
