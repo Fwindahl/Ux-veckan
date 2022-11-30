@@ -38,32 +38,6 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
 
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud,
-  meaning you can access your snippets immediately on all your
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
   Access Clipboard anywhere
 
   Whether you’re on the go, or at your computer, you can access all your Clipboard
