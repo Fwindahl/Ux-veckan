@@ -166,3 +166,45 @@ h1 {
     max-width: 350px;
   }
 }
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.section4 p {
+  margin: 20px 0px 80px 0px;
+}
+.row-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: baseline;
+  gap: 20px;
+  border: 1px solid black;
+  text-indent: 0px;
+}
+.row-text p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.row-text div {
+  max-width: 400px;
+}
+.row-text img {
+  width: 40px;
+  padding-bottom: 50px;
+}
+.row-text h2 {
+  color: hsl(210, 10%, 33%);
+}
+.row-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.content-container {
+  max-width: 1020px;
+}
